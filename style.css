@@ -1,4 +1,6 @@
 body {
+    background-color:   black;
+    color:              yellow;
     font-family:       'Noto Sans', sans-serif;
     margin:             0;
   }
@@ -31,3 +33,27 @@ body {
     background-color: red;
     color:            black;
   }
+
+  .main-title {
+    display:              block;
+    margin:               0.67em 0 0.67em 0;
+    font-weight:          bold;
+    font-family:          "Raleway", sans-serif;
+    font-size:            50px;
+    text-align:           center;
+  }
+
+  .text {
+    margin:               4rem auto;
+    width:                90%;
+  }
+ 
+    .text--highlighted {
+      font-size:          1.7rem;
+      letter-spacing:     2px;
+    }
+    
+    .text--small {
+        font-size:          8px;
+        text-transform:     uppercase;
+      }
